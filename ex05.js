@@ -1,7 +1,7 @@
 function listerPersonnes(personnes) {
-    let result;
+    let result = "";
 	for(let i = 0; i < personnes.length; i++) {
-         result += `${personnes[i].nom} : ${personnes[i].age} ans,`
+         result += `${personnes[i].nom} : ${personnes[i].age} ans, `
     }
     return result;
 }
